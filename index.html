@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Sarab">
+      <meta name="description" content="Sarab - Fast Food & Restaurant HTML Template">
+      <title>Só na Brasa / Pizzaria</title>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
+      <!-- Bootstrap 5.3 -->
+      <link href="css/bootstrap.min.css" rel="stylesheet"/>
+      <!-- AOS Animate on Scroll -->
+      <link href="css/aos.css" rel="stylesheet"/>
+      <!-- Swiper -->
+      <link href="css/swiper-bundle.min.css" rel="stylesheet"/>
+      <!-- all min css -->
+      <link rel="stylesheet" href="css/all.min.css"/>
+      <!-- magnific CSS -->
+      <link rel="stylesheet" href="css/magnific-popup.css"/>
+      <!-- Style CSS -->
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <!-- ============================================================
+         TOP BAR
+         ============================================================ -->
+      <div id="topbar">
+         <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+               <div class="top-contact d-flex flex-wrap">
+                  <span><i class="fas fa-phone-alt"></i>+55 19 3458 3045</span>
+                  <span><i class="fas fa-map-marker-alt"></i>Santa Bárbara d'Oeste</span>
+               </div>
+               <div class="d-flex align-items-center gap-3">
+                  <span class="ttag"><i class="fas fa-fire me-1"></i>Delivery Gratis Hoje</span>
+                  <div class="tsoc">
+                     <a href="https://www.facebook.com/sonabrasaoficial/?locale=pt_BR"><i class="fab fa-facebook-f"></i></a>
+                     <a href="https://www.instagram.com/sonabrasaoficial/"><i class="fab fa-instagram"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ============================================================
+         NAVBAR
+         ============================================================ -->
+      <nav class="navbar navbar-expand-lg" id="nav">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+               <img src="images/logo__1_-removebg-preview.png">
+                     <div class="bname">Só<span> na Brasa</span></div>
+                     <div class="bsub">Pizzaria e Restaurante</div>
+                  </div>
+               </div>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <i class="fas fa-bars" style="color:var(--primary);font-size:1.35rem;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+               <ul class="navbar-nav mx-auto">
+                  <li class="nav-item"><a class="nav-link active" href="#hero">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contact-section">Contatos</a></li>
+               </ul>
+               <div class="d-flex align-items-center gap-1">
+                  <!-- FIX 1: Search button -->
+                  <button id="navSearchBtn" title="Search"><i class="fas fa-search"></i></button>
+                  <a href="#menu" class="nav-link nav-cta"><i class="fas fa-shopping-bag me-1"></i>Pedir Agora</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- ============================================================
+         FIX 1 � SEARCH OVERLAY POPUP
+         ============================================================ -->
+         <section id="search">
+      <div id="searchOv">
+         <button class="sovclose" id="searchClose"><i class="fas fa-times"></i></button>
+         <div class="sovbox">
+            <h4>O que você ta querendo hoje ?</h4>
+            <div class="sovinput">
+               <input type="text" id="searchInput" placeholder="Search burgers, pizza, chicken..." autocomplete="off"/>
+               <button><i class="fas fa-search"></i></button>
+            </div>
+            <!-- Categories inside search box -->
+            <div class="sovcats">
+               <div class="sovcat active" data-cat="all">
+                  Todos os items
+               </div>
+               <div class="sovcat" data-cat="pizza">
+                  Pizza
+               </div>
+               <div class="sovcat" data-cat="chicken">
+                  Pizzas Especiais
+               </div>
+               <div class="sovcat" data-cat="desserts">
+                  Pizzas Doces
+               </div>
+            </div>
+         </section>
+      <!-- ============================================================
+         HERO
+         ============================================================ -->
+      <section id="hero">
+         <div class="hs hs1"></div>
+         <div class="hs hs2"></div>
+         <div class="hbgtxt">PIZZAS</div>
+         <div class="container">
+            <div class="row align-items-center g-5" style="min-height:88vh;">
+               <div class="col-lg-6">
+                  <div class="hbadge">
+                     <div class="hbi"><i class="fas fa-star"></i></div>
+                     <span>Pizzas Fresquinhas de Santa Barbara d'Oeste</span>
+                  </div>
+                  <h1 class="htitle">Delicioso <span class="hl">Entregas Rapidas</span><br/>a qualquer momento</h1>
+                  <p class="hdesc">Experiências as deliciosas pizzas recheadas retiradas em forno a lenha</p>
+                  <div class="d-flex flex-wrap gap-3 mb-2">
+                     <a href="#menu" class="btn-red"><i class="fas fa-utensils"></i>Explore o Menu</a>
+                  <div class="hstats d-flex gap-3 flex-wrap mt-4">
+                     <div class="hstat"><span class="snum"></span>Clientes Satisfeitos</div>
+                     <div class="sdiv"></div>
+                     <div class="hstat"><span class="snum"></span>Menu cheio de sabores</div>
+                     <div class="sdiv"></div>
+                     <div class="hstat"><span class="snum"></span>Chefes Experientes</div>
+                     <div class="sdiv"></div>
+                     <div class="hstat"><span class="snum"></span>Maravilhosa Experiência</div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div style="position:relative;text-align:center;">
+                     <div class="hcircle">
+                        <img src="images/pizza.jpg" alt="Burger"/>
+                     </div>
+                     <div class="fcard fc1">
+                        <div class="fcoi r"><i class="fas fa-fire"></i></div>
+                        <div><span class="fcnum">Bom negocio</span><span class="fcsm">30% hoje!</span></div>
+                     </div>
+                     <div class="fcard fc2">
+                        <div class="fcoi y"><i class="fas fa-star"></i></div>
+                        <div><span class="fcnum">4.4/5</span><span class="fcsm">Avaliações Positivas</span></div>
+                     </div>
+                     <div class="fcard fc3">
+                        <div class="fcoi g"><i class="fas fa-clock"></i></div>
+                        <div><span class="fcnum">30 min</span><span class="fcsm">Delivery Rapido</span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- MARQUEE -->
+      <div class="mqsec">
+         <div class="mqtrack">
+            <div class="mqitem"><i class="fas fa-circle"></i>Pizzas Tradicionais</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Bordas Recheadas</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Pizzas artesanais</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>As Doces</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Saídas e entregadas quentinhas</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Almoço Self-Service</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Pizzas Tradicionais</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Bordas Recheadas</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Pizzas artesanais</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>As Doces</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Saídas e entregadas quentinhas</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Almoço Self-Service</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Pizzas Tradicionais</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Bordas Recheadas</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Pizzas artesanais</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>As Doces</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Saídas e entregadas quentinhas</div>
+            <div class="mqitem"><i class="fas fa-circle"></i>Almoço Self-Service</div>
+         </div>
+      </div>
+      <!-- CATEGORY -->
+      <section id="category">
+         <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+               <span class="slbl">O que nós oferecemos</span>
+               <h2 class="stitle">Pesquisado pela<span> Categoria</span></h2>
+               <div class="sline"></div>
+            </div>
+            <div class="row g-3 justify-content-center">
+               <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="0">
+                  <div class="catcard active" data-filter="all">
+                     <img class="catimg" src="images/1 (2).jpg" alt=""/>
+                     <div class="catnm">Todos os itens</div>
+                     <div class="catct">53 itens</div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="70">
+                  <div class="catcard" data-filter="burgers">
+                     <img class="catimg" src="images/2 (1).jpg" alt=""/>
+                     <div class="catnm">Pizzas Tradicionais</div>
+                     <div class="catct">24 itens</div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="140">
+                  <div class="catcard" data-filter="pizza">
+                     <img class="catimg" src="images/3 (1).jpg" alt=""/>
+                     <div class="catnm">Pizzas Especiais</div>
+                     <div class="catct">21 items</div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="210">
+                  <div class="catcard" data-filter="chicken">
+                     <img class="catimg" src="images/4 (1).jpg" alt=""/>
+                     <div class="catnm">Pizzas Doces</div>
+                     <div class="catct">8 items</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ABOUT -->
+      <section id="about">
+         <div class="container">
+            <div class="row align-items-center g-5">
+               <div class="col-lg-5" data-aos="fade-right">
+                  <div class="astack">
+                     <div class="amain"><img src="images/restaurante-e-pizzaria (1).jpg" alt="Restaurant"/></div>
+                     <div class="asm"><img src="images/restaurante-e-pizzaria2 (1).jpg" alt=""/></div>
+                  </div>
+               </div>
+               <div class="col-lg-7" data-aos="fade-left">
+                  <span class="slbl">Sobre nós</span>
+                  <h2 class="stitle text-start">Nós convidamos Você a visitar o<br/> Nossa <span>Pizzaria e Restaurante</span></h2>
+                  <div class="sline lft"></div>
+                  <p class="sdesc mb-4">Localizada em Santa Bárbara d'Oeste - SP, a Só na Brasa é referência em pizza artesanal assada no forno a lenha. Com mais de 50 opções de sabores preparados com ingredientes frescos e selecionados, proporcionamos momentos inesquecíveis para você, sua família e amigos.</p>
+                  <div class="mb-4">
+                     <div class="fti">
+                        <div class="ftico r"><i class="fas fa-leaf"></i></div>
+                        <div>
+                           <h6>Ingredientes 100% Frescos</h6>
+                           <p>Nossos ingredientes possui aquela sustentabilidade que buscamos a cada dia.</p>
+                        </div>
+                     </div>
+                     <div class="fti">
+                        <div class="ftico g"><i class="fas fa-shipping-fast"></i></div>
+                        <div>
+                           <h6>Entrega Rapida que a luz</h6>
+                           <p>Pedidos onlines são entregues no minimo de 25 minutos ou normalmente entregues em 30 minutos garantido.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <a href="#menu" class="btn-red"><i class="fas fa-book-open"></i>Ver o menu completo</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ============================================================
+         MENU � FIX 3 (filter works) + FIX 4 (plus opens popup)
+         ============================================================ -->
+      <section id="menu">
+         <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+               <span class="slbl">O climax</span>
+               <h2 class="stitle">Nosso delicioso <span>Menu</span> e nossas pizzas em <span>destaque</span></h2>
+               <div class="sline"></div>
+            </div>
+            <!-- FIX 3 � filter buttons -->
+            <div class="text-center mb-4" data-aos="fade-up">
+               <button class="filtbtn active" data-f="all">Tudo</button>
+               <button class="filtbtn" data-f="burgers">Pizzas Tradicionais</button>
+               <button class="filtbtn" data-f="pizza">Pizzas Especiais</button>
+               <button class="filtbtn" data-f="chicken">Pizzas Doces</button>
+            </div>
+            <div class="row g-4" id="mgrid">
+               <!-- CARD 1: Burgers -->
+               <div class="col-sm-6 col-lg-4 mwrap" data-c="burgers" data-aos="fade-up">
+                  <div class="mcard"
+                     data-title="Mussarela"
+                     data-cat="Pizzas Tradicionais"
+                     data-price="R$ 67,00" 
+                     data-desc="Deliciosa pizza, super recheada, com molho de tomate, mussarela e rodelas de tomate. Ingredientes de ótima qualidade e sabor.">
+                     <div class="mbody">
+                        <div class="mcat">Pizza Tradicional</div>
+                        <div class="mtit">Mussarela</div>
+                        <div class="mdesc">Deliciosa pizza, super recheada, com molho de tomate, mussarela e rodelas de tomate. Ingredientes de ótima qualidade e sabor.</div>
+                        <div class="mfoot">
+                           <div>
+                              <div class="mprice">R$ 67,00</div>
+                           </div>
+                           <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- CARD 2: Pizza -->
+               <div class="col-sm-6 col-lg-4 mwrap" data-c="burgers" data-aos="fade-up">
+                  <div class="mcard"
+                     data-title="Marguerita"
+                     data-cat="Pizzas Tradicionais"
+                     data-price="R$ 69,00" 
+                     data-desc="Deliciosa pizza, super recheada, com molho de tomate, mussarela, rodelas de tomate, manjericão e parmesão. Ingredientes de ótima qualidade e sabor.">
+                     <div class="mbody">
+                        <div class="mcat">Pizza Tradicional</div>
+                        <div class="mtit">Marguerita</div>
+                        <div class="mdesc">Deliciosa pizza, super recheada, com molho de tomate, mussarela, rodelas de tomate, manjericão e parmesão. Ingredientes de ótima qualidade e sabor.</div>
+                        <div class="mfoot">
+                           <div>
+                              <div class="mprice">R$ 69,00</div>
+                           </div>
+                           <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- CARD 3: Chicken -->
+               <div class="col-sm-6 col-lg-4 mwrap" data-c="pizza" data-aos="fade-up" data-aos-delay="160">
+                  <div class="mcard"
+                     data-title="Especial da Casa"
+                     data-cat="Pizzas Especiais"
+                     data-price="R$ 87,00" 
+                     data-desc="Deliciosa pizza, super recheada, com molho de tomate, peito de peru, mussarela, palmito, champignon e bacon (Ingredientes de ótima qualidade e sabor).">
+                     <div class="mbody">
+                        <div class="mcat">Pizza Especial</div>
+                        <div class="mtit">Especial da Casa</div>
+                        <div class="mdesc">Deliciosa pizza, super recheada, com molho de tomate, peito de peru, mussarela, palmito, champignon e bacon (Ingredientes de ótima qualidade e sabor).</div>
+                        <div class="mfoot">
+                           <div>
+                              <div class="mprice">R$ 87,00</div>
+                           </div>
+                           <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- CARD 4: Wraps -->
+               <div class="col-sm-6 col-lg-4 mwrap" data-c="pizza" data-aos="fade-up" data-aos-delay="160">
+                  <div class="mcard"
+                     data-title="Camarão com Catupiry"
+                     data-cat="Pizzas Especiais"
+                     data-price="R$ 96,00" 
+                     data-desc="Deliciosa pizza, super recheada, com molho de tomate, mussarela, catupiry, camarões selecionados e pimenta biquinho (ingredientes de ótima qualidade e sabor).">
+                     <div class="mbody">
+                        <div class="mcat">Pizza Especial</div>
+                        <div class="mtit">Camarão com Catupiry</div>
+                        <div class="mdesc">Deliciosa pizza, super recheada, com molho de tomate, mussarela, catupiry, camarões selecionados e pimenta biquinho (ingredientes de ótima qualidade e sabor).</div>
+                        <div class="mfoot">
+                           <div>
+                              <div class="mprice">R$ 87,00</div>
+                           </div>
+                           <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- CARD 5: Desserts -->
+               <div class="col-sm-6 col-lg-4 mwrap" data-c="chicken" data-aos="fade-up" data-aos-delay="80">
+                  <div class="mcard"
+                     data-title="Ovomaltine"
+                     data-cat="Pizzas Doces"
+                     data-price="R$ 59,00" 
+                     data-desc="Chocolate ao leite, coberto com flocos de Ovomaltine.">
+                     <div class="mbody">
+                        <div class="mcat">Pizza Doce</div>
+                        <div class="mtit">Ovomaltine</div>
+                        <div class="mdesc">Chocolate ao leite, coberto com flocos de Ovomaltine.</div>
+                        <div class="mfoot">
+                           <div>
+                              <div class="mprice">R$ 59,00</div>
+                           </div>
+                           <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- CARD 6: Pasta -->
+                <div class="col-sm-6 col-lg-4 mwrap" data-c="chicken" data-aos="fade-up" data-aos-delay="80">
+                  <div class="mcard"
+                     data-title="Sensação"
+                     data-cat="Pizzas Doces"
+                     data-price="R$ 62,00" 
+                     data-desc="Delicioso chocolate ao leite, morangos selecionados, regado com leite condensado.">
+                     <div class="mbody">
+                        <div class="mcat">Pizza Doce</div>
+                        <div class="mtit">Sensação</div>
+                        <div class="mdesc">Delicioso chocolate ao leite, morangos selecionados, regado com leite condensado.</div>
+                        <div class="mfoot">
+                           <div>
+                              <div class="mprice">R$ 62,00</div>
+                           </div>
+                           <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            <!-- end #mgrid -->
+            <div class="text-center mt-5"><a href="#" class="btn-red"><i class="fas fa-th-large"></i>Ver o menu completo</a></div>
+         </div>
+      </section>
+	  
+	  
+      <!-- ============================================================
+         FIX 4 � MENU DETAIL POPUP MODAL
+         ============================================================ -->
+      <div id="menuPop">
+         <div class="mpbox">
+            <button class="mpclose" id="mpClose"><i class="fas fa-times"></i></button>
+            <div class="mpimg"><img id="mpImg" src="" alt=""/></div>
+            <div class="mpbody">
+               <div id="mpCat"></div>
+               <div id="mpTitle"></div>
+               <div id="mpStars"></div>
+               <div id="mpDesc"></div>
+               <div id="mpPrice"></div>
+               <div class="mpmeta" id="mpMeta"></div>
+               <div class="mpqty">
+                  <button class="mpqbtn" id="mpMinus">-</button>
+                  <span class="mpqnum" id="mpQnum">1</span>
+                  <button class="mpqbtn" id="mpPlus">+</button>
+               </div>
+               <div class="mptags" id="mpTags"></div>
+               <button class="mpaddcart" id="mpAddCart"><i class="fas fa-shopping-cart"></i>Adicionar no Carrinho</button>
+            </div>
+         </div>
+      </div>
+      <!-- FIX 7 � GALLERY POPUP -->
+      <div id="galPop">
+         <div class="gpbox">
+            <button class="gpclose" id="gpClose"><i class="fas fa-times"></i></button>
+            <img id="gpImg" src="" alt=""/>
+            <div class="gpcap">
+               <h5 id="gpTitle"></h5>
+               <p id="gpDesc"></p>
+            </div>
+            <div class="gpnav">
+               <button id="gpPrev"><i class="fas fa-chevron-left me-1"></i>Prev</button>
+               <button id="gpNext">Next <i class="fas fa-chevron-right ms-1"></i></button>
+            </div>
+         </div>
+      </div>
+	  
+      <!-- NEWSLETTER -->
+      <section id="newsletter">
+         <div class="nlbg"></div>
+         <div class="container">
+            <div class="nlw text-center" data-aos="zoom-in">
+               <span class="slbl" style="color:rgba(255,255,255,.7);">Descontos imperdiveis</span>
+               <h2 class="mb-3" style="color:#fff;"> Consiga cupons pela nossas redes sociais</span></h2>
+               <p class="mb-4" style="color:rgba(255,255,255,.78);">Recebe 20% de desconto na primeira compra</p>
+               <div class="nl-form-wrap">
+                  <input class="nlinput" type="email" id="nlEmail" placeholder="Cupom"/>
+                  <button class="nlbtn" id="nlBtn"><i class="fas fa-paper-plane me-1"></i>Verificar</button>
+               </div>
+            </div>
+         </div>
+      </section>
+	  
+      <!-- ============================================================
+         FIX 6 � CONTACT FORM
+         ============================================================ -->
+      <section id="contact-section">
+         <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+               <span class="slbl">Esteja no toque</span>
+               <h2 class="stitle">Nossos Contatos</span></h2>
+               <div class="sline"></div>
+               <p class="sdesc mx-auto" style="max-width:480px;">Tem uma duvida, reclamação ou avaliação ? nos chame</p>
+            </div>
+            <div class="row g-4">
+               <div class="col-lg-4" data-aos="fade-right">
+                  <div class="ctdark">
+                     <h4>Vamos conversar</h4>
+                     <div class="ctitem">
+                        <div class="cticon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="ctinfo"><strong>Endereço</strong><span>Mollon, Santa Bárbara d'Oeste - SP, <br/>13456-433</span></div>
+                     </div>
+                     <div class="ctitem">
+                        <div class="cticon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="ctinfo"><strong>Telefone</strong><span>+55 19 3458 3045</span></div>
+                     </div>
+                     <div class="ctitem">
+                        <div class="cticon"><i class="fas fa-envelope"></i></div>
+                        <div class="ctinfo"><strong>Email</strong><span>sonabrasaoficialgmail.com</span></div>
+                     </div>
+                     <div class="ctitem">
+                        <div class="cticon"><i class="fas fa-clock"></i></div>
+                        <div class="ctinfo"><strong>Horarios de funcionamento</strong><span>Seg - Qui: 18:00 - 22:00 <br/>Sex - Sáb: 18:00 - 22:30</span></div>
+                     </div>
+                     <div class="ctsocrow">
+                        <a href="https://www.facebook.com/sonabrasaoficial/?locale=pt_BR"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/sonabrasaoficial/"><i class="fab fa-instagram"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-8" data-aos="fade-left">
+                  <div class="fcard">
+                     <div class="row g-3">
+                        <div class="col-sm-6"><label class="flbl">Seu nome *</label><input type="text" class="fctrl" placeholder=""/></div>
+                        <div class="col-sm-6"><label class="flbl">Endereço de email *</label><input type="email" class="fctrl" placeholder=""/></div>
+                        <div class="col-sm-6"><label class="flbl">Numero de telefone</label><input type="tel" class="fctrl" placeholder=""/></div>
+                        <div class="col-sm-6">
+                           <label class="flbl">Tipo *</label>
+                           <select class="fctrl">
+                              <option>Avaliação</option>
+                              <option>Reclamação</option>
+                              <option>Feedback</option>
+                              <option>Duvida</option>
+                           </select>
+                        </div>
+                        <div class="col-12"><label class="flbl">Mensagem *</label><textarea class="fctrl" rows="5" placeholder=""></textarea></div>
+                        <div class="col-12"><button class="btn-red" id="ctcBtn"><i class="fas fa-paper-plane"></i>Enviar Mensagem</button></div>
+                     </div>
+                     <div class="sucmsg" id="ctcOk">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Mensagem enviada com sucesso !</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+	  
+      <!-- FOOTER -->
+      <footer>
+         <div class="container">
+            <div class="row g-5">
+               <div class="col-lg-4">
+                  <div class="fnm">Só na Brasa</span></div>
+                  <div class="fsoc">
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="ftit">Esteja no toque</div>
+                  <div class="fci">
+                     <div class="fciico"><i class="fas fa-map-marker-alt"></i></div>
+                     <div class="fciinfo"><strong>Endereço</strong>Mollon, Santa Bárbara d'Oeste - SP, 13456-433</div>
+                  </div>
+                  <div class="fci">
+                     <div class="fciico"><i class="fas fa-phone-alt"></i></div>
+                     <div class="fciinfo"><strong>Telefone</strong>+55 19 3458 3045</div>
+                  </div>
+                  <div class="fci">
+                     <div class="fciico"><i class="fas fa-envelope"></i></div>
+                     <div class="fciinfo"><strong>Email</strong>sonabrasaoficialgmail.com</div>
+                  </div>
+                  <div class="fci">
+                     <div class="fciico"><i class="fas fa-clock"></i></div>
+                     <div class="fciinfo"><strong>Houras</strong>Seg - Qui: 18:00 - 22:00 <br/>Sex - Sáb: 18:00 - 22:30</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Floating cart -->
+      <!-- <div class="cartfl"><i class="fas fa-shopping-cart"></i><span>My Cart</span><div class="ccount" id="cartCount">0</div></div> -->
+      <!-- Back to top -->
+      <button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+    
+	<!-- jQuery -->
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <!-- Bootstrap 5 -->
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <!-- AOS -->
+      <script src="js/aos.js"></script>
+      <!-- Swiper -->
+      <script src="js/swiper-bundle.min.js"></script>
+      <!-- CounterUp -->
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <!-- Main js -->
+      <script src="js/main.js"></script>
+   </body>
+</html>
